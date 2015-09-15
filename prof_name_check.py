@@ -16,5 +16,5 @@ for profile in naga_profs:
         if answer.upper() == 'Y':
             os.remove(profile)
             count += 1
-print("Razer Profile Checker deleted {} profiles lacking the <ProfileName> tag. Press any key to exit".format(count))
+print("Razer Profile Checker deleted {} profiles lacking the <ProfileName> tag. Press Enter to exit".format(count))
 input("")
